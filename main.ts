@@ -1,7 +1,7 @@
 
 
 
-class MovingTile {
+class MovingImage {
     tile: Image
     x: number = 80
     y: number = 60
@@ -9,7 +9,7 @@ class MovingTile {
     vy: number = 0
 
     // Example usage
- movingTile = new MovingTile(img`
+ movingTile = new MovingImage(img`
     ...........ccccc66666...........
     ........ccc4444444444666........
     ......cc444444444bb4444466......
